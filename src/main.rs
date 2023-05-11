@@ -29,38 +29,6 @@ fn convert_to_temp(temperature: i32) {
     drop(temperature);
 }
 
-/*fn stuff() {
-    println!("Match statement: {}", match_expression());
-    let x = {
-        let y = 5;
-        let z = 6;
-        y + z
-    };
-    println!("detailed variable declaration: {x}");
-
-    println!("Conversion to i32: {}", output_number());
-
-    fn output_number() -> i32 {
-        loop {
-            println!("Please type in a valid number");
-            let output: i32 = match read_input().trim().parse::<i32>() {
-                Ok(output) => output,
-                Err(_) => continue,
-            };
-            return output;
-        }
-    }
-
-    fn match_expression() -> i32 {
-        let y = 100;
-        match y {
-            32 => 6,
-            100 => 5,
-            _ => 0,
-        }
-    }
-}*/
-
 fn main() {
     println!("Hello, world!");
     println!("Input your temperature as a number only");

@@ -11,12 +11,12 @@ fn convert_to_temp(temperature: i32) {
         println!("Do you want to convert to celsius or fahrenheit?");
         println!("celsius -> c | fahrenheit -> f");
         let to_temp = read_input();
-        if to_temp.trim() == String::from("c") {
+        if to_temp.trim() == "c" {
             let result = ((temperature - 32) * 5) / 9;
             println!("{result}");
             drop(result);
             break;
-        } else if to_temp.trim() == String::from("f") {
+        } else if to_temp.trim() == "f" {
             let result = ((temperature * 9) / 5) + 32;
             println!("{result}");
             drop(result);

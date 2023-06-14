@@ -1,6 +1,5 @@
 # cmake folder
 cmake-build-debug/
-.idea/workspace.xml
 
 # Prerequisites
 *.d

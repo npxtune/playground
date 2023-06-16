@@ -2,14 +2,25 @@
 
 #include <stdio.h>
 
+// tab, backspace, backslash
+
 int main() {
-    int c, cl = 0, nc = 0;
-    while ((c = getchar()) != EOF) {
-        ++cl;
-        if (c == '\n') {
-            ++nc;
+    int ch;
+    while ((ch = getchar()) != EOF) {
+        switch (ch) {
+            case '\t':
+                printf("\\t");
+                break;
+            case '\\':
+                printf("\\\\");
+                break;
+            case '\b':
+                printf("\\b");
+                break;
+            default:
+                putchar(ch);
+                break;
         }
     }
-    printf("characters:%d\nnew lines: %d\n", cl, nc);
     return 0;
 }

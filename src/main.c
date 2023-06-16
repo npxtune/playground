@@ -3,6 +3,13 @@
 #include <stdio.h>
 
 int main() {
-    printf("%d\n", EOF);
+    int c, cl = 0, nc = 0;
+    while ((c = getchar()) != EOF) {
+        ++cl;
+        if (c == '\n') {
+            ++nc;
+        }
+    }
+    printf("characters:%d\nnew lines: %d\n", cl, nc);
     return 0;
 }

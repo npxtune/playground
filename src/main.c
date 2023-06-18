@@ -5,7 +5,7 @@
 int main() {
     // 97 -> 122 is a -> c values of corresponding character in int
     // 65 -> 90  is A -> Z values of corresponding character in int
-    int c, nwhite = 0;
+    int c, nother = 0;
     int clength[MAXCHAR], dlength[MAXDIG];
     for (int i = 0; i < MAXCHAR; ++i) {
         clength[i] = 0;
@@ -21,7 +21,7 @@ int main() {
         } else if (c >= '0' && c <= '9') {
             ++dlength[c - '0'];
         } else {
-            ++nwhite;
+            ++nother;
         }
     }
     for (int i = 0; i < MAXCHAR; ++i) {
@@ -38,8 +38,8 @@ int main() {
         }
         printf("\n");
     }
-    printf("space: ");
-    for (int i = 0; i < nwhite; ++i) {
+    printf("other: ");
+    for (int i = 0; i < nother; ++i) {
         putchar('|');
     }
     return 0;

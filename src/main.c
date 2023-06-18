@@ -1,5 +1,4 @@
 // Copyright (c) 2023. Created by user khoidiangelo on GitHub.
-
 #include <stdio.h>
 int main() {
     // 97 -> 122 is a -> c

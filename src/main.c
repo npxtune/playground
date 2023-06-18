@@ -1,14 +1,16 @@
 // Copyright (c) 2023. Created by user khoidiangelo on GitHub.
 #include <stdio.h>
+#define MAXCHAR 26
+#define MAXDIG 10
 int main() {
-    // 97 -> 122 is a -> c
-    // 65 -> 90 is A -> Z
+    // 97 -> 122 is a -> c values of corresponding character in int
+    // 65 -> 90  is A -> Z values of corresponding character in int
     int c, nwhite = 0;
-    int clength[25], dlength[9];
-    for (int i = 0; i < 25; ++i) {
+    int clength[MAXCHAR], dlength[MAXDIG];
+    for (int i = 0; i < MAXCHAR; ++i) {
         clength[i] = 0;
     }
-    for (int i = 0; i < 9; ++i) {
+    for (int i = 0; i < MAXDIG; ++i) {
         dlength[i] = 0;
     }
     while ((c = getchar()) != EOF) {
@@ -22,14 +24,14 @@ int main() {
             ++nwhite;
         }
     }
-    for (int i = 0; i < 25; ++i) {
+    for (int i = 0; i < MAXCHAR; ++i) {
         printf("%4c%c: ", i + 65, i + 97);
         for (int j = 0; j < clength[i]; ++j) {
             putchar('|');
         }
         printf("\n");
     }
-    for (int i = 0; i < 9; ++i) {
+    for (int i = 0; i < MAXDIG; ++i) {
         printf("%5d: ", i);
         for (int j = 0; j < dlength[i]; ++j) {
             putchar('|');

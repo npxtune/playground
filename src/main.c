@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void) {
-    const int constvalue = 10;
-    printf("%d", constvalue);
+    int hex = 0x1f;
+    printf("%d", hex);
     return 0;
 }

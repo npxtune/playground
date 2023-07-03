@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "readline.c"
+#define MAXLINE 1000
 int stringlength(char s[]) {
     int i = 0;
     while (s[i] != '\0') {
@@ -14,8 +16,8 @@ void is_leap_year(int year) {
     }
 }
 int main(void) {
-    const char testinput[] = "hello, world!\n";
-    printf("length: %d\n%s", stringlength(testinput), testinput);
-    is_leap_year(2024);
+    char line[MAXLINE];
+    readline(line, MAXLINE);
+    printf("%s", line);
     return 0;
 }

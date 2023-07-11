@@ -13,10 +13,21 @@ void squeeze(char s1[], char s2[]) {
     s1[k] = '\0';
 }
 
+int any(char s1[], char s2[]) {
+    int high = -1;
+    for (int i = 0; s2[i] != '\0'; ++i) {
+        for (int j = 0; s1[j] != '\0'; ++j) {
+            if (s1[j] == s2[i] && i > high) {
+                high = i;
+            }
+        }
+    }
+    return high;
+}
+
 int main(void) {
     char s1[MAXLINE];
     readline(s1, MAXLINE);
-    squeeze(s1, "hello");
-    printf("%s", s1);
+    printf("%d", any(s1, "hello"));
     return 0;
 }

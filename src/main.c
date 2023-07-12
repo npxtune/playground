@@ -14,15 +14,15 @@ void squeeze(char s1[], char s2[]) {
 }
 
 int any(char s1[], char s2[]) {
-    int high = -1;
+    int high = MAXLINE;
     for (int i = 0; s2[i] != '\0'; ++i) {
         for (int j = 0; s1[j] != '\0'; ++j) {
-            if (s1[j] == s2[i] && i > high) {
-                high = i;
+            if (s1[j] == s2[i] && j < high) {
+                high = j;
             }
         }
     }
-    return high;
+    return ++high; // easier to count up since i starts from 0
 }
 
 int main(void) {

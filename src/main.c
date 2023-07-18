@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "setbits.c"
 int main(void) {
-    printf("%d\n", 25 >> 3);
+    printf("%d\n", setbits(0b000100, 0b000001, 5, 3));
+    printf("%d\n", 0b10000001);
     return 0;
+    //
 }

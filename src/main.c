@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include "K&R2.9/rightrot.c"
 int main(void) {
-    printf("%d\n", 0b101010);
-    printf("%d\n", rightrot(0b010101, 1));
-    printf("%d\n", 0b010101); //FOR DEBUGGING
+    printf("%d\n", 0b110101);
+    printf("%d\n", rightrot(0b101011, 1));
+    printf("\n");
+    printf("%d\n", 0b111010);
+    printf("%d\n", rightrot(0b101011, 2));
     return 0;
 }

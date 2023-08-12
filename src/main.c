@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "K&R2.9/rightrot.c"
+#include "K&R2.10/bitcount.c"
 int main(void) {
     printf("%d\n", 0b1010110);
     printf("%d\n", rightrot(0b1010110, 7));

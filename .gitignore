@@ -1,7 +1,11 @@
 # cmake folder
-build/
+cmake-build-debug/
+.idea/workspace.xml
+.DS_Storage
+.idea/.DS_Storage
 .cache/
-.DS_Store*
+.vscode/
+build/
 
 # Prerequisites
 *.d

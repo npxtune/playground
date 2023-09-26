@@ -5,7 +5,7 @@ cmake-build-debug/
 *.DS_Store*
 
 # clion
-.idea
+/.idea/*
 
 # Prerequisites
 *.d
@@ -59,4 +59,3 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
-

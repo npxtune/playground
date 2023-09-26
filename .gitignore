@@ -4,9 +4,6 @@ cmake-build-debug/
 # macos
 *.DS_Store*
 
-# clion
-/.idea/*
-
 # Prerequisites
 *.d
 

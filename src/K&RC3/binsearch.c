@@ -12,7 +12,7 @@ int binsearch(int x, int v[], int n) {
     if (mid > n-1) {
         return -1;
     } else if (mid != high){
-        return mid -1;
+        return mid - 1;
     } else {
         return mid;
     }

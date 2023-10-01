@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "K&RC3/binsearch.c"
-#define MAX 100
+#include "K&RC3/escape.c"
+#include "readline.c"
+#define MAX 1000
 int main(void) {
-    int x = 100;
-    int v[MAX];
-    for (int i = 0; i < MAX; ++i) {
-        v[i] = i;
-    }
-    printf("%d", binsearch(x, v, MAX));
+    char s[MAX], t[MAX];
+    readline(t, MAX);
+    escape(s, t, false);
+    printf("%s%s", t, s);
     return 0;
 }

@@ -1,11 +1,8 @@
 # cmake folder
 cmake-build-debug/
-
-# clion stuff
 .idea/workspace.xml
-
-# macos
-*.DS_Store*
+.DS_Storage
+.idea/.DS_Storage
 
 # Prerequisites
 *.d

@@ -20,10 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.4">
-      <change afterPath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" afterDir="false" />
+    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,20 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "npxtune"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f6e009af-7fae-42aa-b259-825c215637a2" />
+        <option name="url" value="https://github.com/khoidiangelo/playground" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +116,7 @@
       <workItem from="1696179433333" duration="47000" />
       <workItem from="1696189042474" duration="15000" />
       <workItem from="1696342709317" duration="32000" />
-      <workItem from="1696347640349" duration="2644000" />
+      <workItem from="1696347640349" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="update cmake list">
       <option name="closed" value="true" />
@@ -145,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696175960731</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="K&amp;R 3.5">
+      <option name="closed" value="true" />
+      <created>1696350580647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696350580647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -171,6 +192,7 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="K&amp;R 3.3" />
     <MESSAGE value="K&amp;R 3.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.4" />
+    <MESSAGE value="K&amp;R 3.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.5" />
   </component>
 </project>

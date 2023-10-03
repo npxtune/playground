@@ -20,9 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.3">
+    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.4">
+      <change afterPath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/K&amp;RC3/binsearch.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/K&amp;RC3/binsearch.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +99,11 @@
       <workItem from="1696065788473" duration="13000" />
       <workItem from="1696090159568" duration="44000" />
       <workItem from="1696169791559" duration="2910000" />
-      <workItem from="1696173155749" duration="2549000" />
+      <workItem from="1696173155749" duration="2657000" />
+      <workItem from="1696179433333" duration="47000" />
+      <workItem from="1696189042474" duration="15000" />
+      <workItem from="1696342709317" duration="32000" />
+      <workItem from="1696347640349" duration="2644000" />
     </task>
     <task id="LOCAL-00001" summary="update cmake list">
       <option name="closed" value="true" />
@@ -133,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696171961324</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="K&amp;R 3.4">
+      <option name="closed" value="true" />
+      <created>1696175960731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696175960731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -158,6 +170,7 @@
     <MESSAGE value="update cmake list" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="K&amp;R 3.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.3" />
+    <MESSAGE value="K&amp;R 3.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.4" />
   </component>
 </project>

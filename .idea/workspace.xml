@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.5">
+    <list default="true" id="2458ff65-07a8-449e-a663-e4f13ae59216" name="Changes" comment="K&amp;R 3.5 works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/K&amp;RC3/expand.c" afterDir="false" />
     </list>
@@ -36,12 +36,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "npxtune"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;npxtune&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -116,7 +116,11 @@
       <workItem from="1696179433333" duration="47000" />
       <workItem from="1696189042474" duration="15000" />
       <workItem from="1696342709317" duration="32000" />
-      <workItem from="1696347640349" duration="5689000" />
+      <workItem from="1696347640349" duration="5767000" />
+      <workItem from="1696361006506" duration="19000" />
+      <workItem from="1696361038251" duration="160000" />
+      <workItem from="1696361250791" duration="17000" />
+      <workItem from="1696367212872" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="update cmake list">
       <option name="closed" value="true" />
@@ -174,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696355465957</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="K&amp;R 3.5 works">
+      <option name="closed" value="true" />
+      <created>1696355748537</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696355748537</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VCPKGProject">
@@ -201,6 +213,7 @@
     <MESSAGE value="K&amp;R 3.3" />
     <MESSAGE value="K&amp;R 3.4" />
     <MESSAGE value="K&amp;R 3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.5" />
+    <MESSAGE value="K&amp;R 3.5 works" />
+    <option name="LAST_COMMIT_MESSAGE" value="K&amp;R 3.5 works" />
   </component>
 </project>

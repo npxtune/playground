@@ -1,7 +1,7 @@
 #include <ctype.h>
 #include <stdio.h>
 void expand(char s1[], char s2[]) {
-    char new_char = '\0', previous_char;
+    char new_char = '\0', previous_char = '\0';
     bool found_dash;
     int index2 = 0;
     for (int i = 0; s1[i] != '\0'; ++i) {
@@ -13,7 +13,7 @@ void expand(char s1[], char s2[]) {
                 for (char j = new_char; tolower(j) - '1' != tolower(previous_char) - '0'; ++j, ++index2) {
                     s2[index2] = j;
                 }
-                new_char = '\0';
+                new_char = previous_char;
                 s2[index2++] = '\n';
                 found_dash = false;
             }
@@ -25,7 +25,7 @@ void expand(char s1[], char s2[]) {
                 for (char j = new_char; j != '9' + 1; ++j, ++index2) {
                     s2[index2] = j;
                 }
-                new_char = '\0';
+                new_char = previous_char;
                 s2[index2++] = '\n';
                 found_dash = false;
             }
